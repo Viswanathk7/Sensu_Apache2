@@ -1,0 +1,9 @@
+{
+	"checks": {
+		"cpu_usage": {
+			"command": "check-ram.rb -w 20 -c 15",
+			"interval": 60,
+			"subscribers": ["ALL"]
+		}
+	}
+}

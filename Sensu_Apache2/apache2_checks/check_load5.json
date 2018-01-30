@@ -1,0 +1,9 @@
+{
+	"checks": {
+		"Apache_Load5": {
+			"command": "check_load5.rb -w 10 -c 15",
+			"interval": 60,
+			"subscribers": ["ALL"]
+		}
+	}
+}

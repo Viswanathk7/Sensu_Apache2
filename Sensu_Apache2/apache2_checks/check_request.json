@@ -1,0 +1,9 @@
+{
+	"checks": {
+		"Apache_Request": {
+			"command": "check_request.rb -w 1000 -c 2000",
+			"interval": 60,
+			"subscribers": ["ALL"]
+		}
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"checks": {
+		"Apache_Total_Accesses": {
+			"command": "check_access.rb -w 450 -c 15",
+			"interval": 60,
+			"subscribers": ["ALL"]
+		}
+	}
+}

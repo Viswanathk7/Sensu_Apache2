@@ -1,0 +1,9 @@
+{
+	"checks": {
+		"Apache_Uptime": {
+			"command": "check_uptime.rb -w 43200 -c 86400",
+			"interval": 60,
+			"subscribers": ["ALL"]
+		}
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"checks": {
+		"Apache_Bytes_Per_Requests": {
+			"command": "check_bytes_request.rb -w 10000 -c 20000",
+			"interval": 60,
+			"subscribers": ["ALL"]
+		}
+	}
+}

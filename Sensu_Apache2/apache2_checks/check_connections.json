@@ -1,0 +1,9 @@
+{
+	"checks": {
+		"Apache_Connection": {
+			"command": "check_connections.rb -w 70 -c 75",
+			"interval": 60,
+			"subscribers": ["ALL"]
+		}
+	}
+}

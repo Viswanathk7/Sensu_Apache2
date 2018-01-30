@@ -1,0 +1,9 @@
+{
+	"checks": {
+		"Apache_Load1": {
+			"command": "check_load1.rb -w 2 -c 3",
+			"interval": 60,
+			"subscribers": ["ALL"]
+		}
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"checks": {
+		"Apache_BusyWorkers": {
+			"command": "check_busyworkers.rb -w 40 -c 50",
+			"interval": 60,
+			"subscribers": ["ALL"]
+		}
+	}
+}

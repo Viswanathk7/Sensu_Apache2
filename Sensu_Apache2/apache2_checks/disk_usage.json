@@ -1,0 +1,9 @@
+{
+	"checks": {
+		"Apache_DiskUsage": {
+			"command": "disk_usage.rb -w 1024  -c 1024",
+			"interval": 60,
+			"subscribers": ["ALL"]
+		}
+	}
+}
